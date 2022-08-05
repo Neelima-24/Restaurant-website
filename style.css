@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+  body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/bg.png");
+    background-size: cover;
+  }
+  
+  .container {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  /* ----------------------------------- */
+  /* ------------- NAVBAR -------------- */
+  /* ----------------------------------- */
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo{
+     margin-left: 20px;
+
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    
+  }
+  
+  .list-item {
+    font-size: 27px;
+    cursor: pointer;
+    color: #F4BE2C;
+  }
+  
+  .button-small{
+    font-size: 29px; 
+    background-color: #FF6263;
+    border: 2px solid #FF6263;
+    padding: 5px 56.72px 5.06px 56.32px;
+    cursor: pointer;
+  }
+
+  .hero{
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+   
+  }
+ 
+  .hero-heading{
+    color: #F4BE2C;
+    text-align: center;
+    font-size: 130px;
+    margin-top: 100px;
+  }
+
+  .button-large{
+  font-size: 25px;
+  color: black;
+  border: 2px #FF6263;
+  background-color: #FF6263;
+  cursor: pointer;
+  padding:  15px 56.72px 15px 56.32px;
+  margin-top: 50px;
+  }
+
+  .bottom{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+  }
